@@ -43,9 +43,7 @@ function push() {
       setTimeout(function() {
         brandItems[i].classList.toggle("brands__item--show");
       }, delay);
-      delay -= 20;
-    }
+      delay -= 20;}
     setTimeout(function() {showMoreButton.textContent = "Показать все"}, 290);
-    toggle = false;
-  } 
+    toggle = false;} 
 }
